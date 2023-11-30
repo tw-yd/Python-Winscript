@@ -1,6 +1,8 @@
 import pynput
 import os
 
+
+
 Not_Repeating = False
 while Not_Repeating == False:  #檔案是否重複
     path = str(input('請輸入存檔路徑:')) + '.txt'
